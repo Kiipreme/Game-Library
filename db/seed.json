@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Apex Legends",
+    "img": "",
+    "description": "",
+    "love": { "like": false, "dislike": false }
+  },
+  {
+    "name": "Valorant",
+    "img": "",
+    "description": "",
+    "love": { "like": false, "dislike": false }
+  },
+  {
+    "name": "Elden Ring",
+    "img": "",
+    "description": "",
+    "love": { "like": false, "dislike": false }
+  },
+  {
+    "name": "League of Legends",
+    "img": "",
+    "description": "",
+    "love": { "like": false, "dislike": false }
+  }
+]
