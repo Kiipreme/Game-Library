@@ -5,7 +5,6 @@ const GameSchema = new mongoose.Schema(
     name: String,
     img: String,
     description: String,
-    love: { like: Boolean, dislike: Boolean },
   },
   {
     timestamps: true,

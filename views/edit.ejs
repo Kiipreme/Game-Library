@@ -1,0 +1,37 @@
+<div class="game">
+  <h2>Edit Game</h2>
+
+  <form action="/games/<%=item.id %>/?_method=put" method="post">
+    <div>
+      <label class="label" for="name">Name:</label>
+      <input
+        class="input"
+        id="name"
+        type="text"
+        name="name"
+        value="<%=item.name %>"
+      />
+      <br />
+      <label class="label" for="img">Image:</label>
+      <input
+        class="input"
+        id="img"
+        type="text"
+        name="img"
+        value="<%=item.img %>"
+      />
+      <br />
+      <label class="label" for="description">Description:</label>
+      <input
+        class="input-desc"
+        id="description"
+        type="text"
+        name="description"
+        value="<%=item.description %>"
+      />
+    </div>
+
+    <input type="submit" value="Update" class="submit" />
+    <a href="/games" class="warning">Cancel</a>
+  </form>
+</div>

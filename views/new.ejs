@@ -1,0 +1,24 @@
+<div class="game">
+  <h2>Add Game</h2>
+
+  <form action="/games/add" method="post">
+    <div>
+      <label for="name" class="label">Name:</label>
+      <input type="text" name="name" id="name" class="input" /><br />
+
+      <label for="img" class="label">Image:</label>
+      <input type="text" name="img" id="img" class="input" /><br />
+
+      <label for="description" class="label">Description:</label>
+      <input
+        type="text"
+        name="description"
+        id="description"
+        class="input-desc"
+      />
+    </div>
+
+    <input type="submit" class="submit" />
+    <a href="/games" class="warning">Cancel</a>
+  </form>
+</div>

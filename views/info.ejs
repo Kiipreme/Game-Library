@@ -1,0 +1,15 @@
+<header>
+  <div class="header-div">
+    <h1 class="header-name"><%=item.name %></h1>
+
+    <a href="/games" class="home button"> Home </a>
+
+    <a href="/games/<%=item.id %>/edit" class="edit button">Edit</a>
+  </div>
+</header>
+
+<div class="display">
+  <img src="<%=item.img %>" class="info-img" />
+
+  <div class="info-box"><%=item.description %></div>
+</div>

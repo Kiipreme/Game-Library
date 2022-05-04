@@ -1,26 +1,26 @@
 [
   {
     "name": "Apex Legends",
-    "img": "",
-    "description": "",
+    "img": "/imgs/apex-legends.jpg",
+    "description": "Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made characters with distinctive abilities, called 'Legends', similar to those of hero shooters. Alternate modes have been introduced allowing for single and for two-player squads since the game's release.",
     "love": { "like": false, "dislike": false }
   },
   {
     "name": "Valorant",
-    "img": "",
-    "description": "",
+    "img": "/imgs/valorant-cover.png",
+    "description": "Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.",
     "love": { "like": false, "dislike": false }
   },
   {
     "name": "Elden Ring",
-    "img": "",
-    "description": "",
+    "img": "/imgs/elden-ring.jpg",
+    "description": "Elden Ring is an action role-playing game played in a third-person perspective with gameplay focusing on combat and exploration; it features elements similar to those found in other games developed by FromSoftware, such as the Souls series, Bloodborne, and Sekiro: Shadows Die Twice.",
     "love": { "like": false, "dislike": false }
   },
   {
     "name": "League of Legends",
-    "img": "",
-    "description": "",
+    "img": "/imgs/league-of-legends.jpg",
+    "description": "What is League of Legends? League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.",
     "love": { "like": false, "dislike": false }
   }
 ]

@@ -1,0 +1,159 @@
+body {
+  background-color: darkgray;
+}
+
+.main-img {
+  object-fit: cover;
+  width: 200px;
+  height: 280px;
+  border-radius: 6px;
+}
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 24px;
+  padding: 12px;
+  margin: 20px 30px;
+}
+
+.delete {
+  width: 100%;
+  border-radius: 20px;
+  background-color: red;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.adding {
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 6px;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.game {
+  border: 20px solid black;
+  margin: 10vmax;
+  padding: 5vmax;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+  width: auto;
+}
+
+.label {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.input {
+  height: 30px;
+  width: 25%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.warning {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  /* margin-top: 10px; */
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: azure;
+}
+
+.submit {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: skyblue;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.input-desc {
+  height: 150px;
+  width: 30%;
+}
+
+.display {
+  display: flex;
+}
+
+.info-img {
+  height: 1000px;
+  width: 800px;
+  border-radius: 20px;
+  margin-left: 30px;
+  object-fit: cover;
+}
+
+.info-box {
+  border: 15px solid black;
+  margin: auto 100px;
+  padding: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  color: navy;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: auto 10px;
+  justify-self: end;
+}
+
+.header-div {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: blueviolet;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.header-name {
+  font-size: 90px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: gold;
+}
+
+.edit {
+  background-color: chartreuse;
+}
+
+.home {
+  background-color: dimgray;
+}

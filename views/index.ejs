@@ -1,0 +1,21 @@
+<header>
+  <div class="header-div">
+    <h1 class="header-name">GAME LIBRARY</h1>
+    <a href="games/new" class="adding"> Add Game </a>
+  </div>
+</header>
+
+<div id="container">
+  <% games.forEach(item => { %>
+  <div class="card">
+    <a href="games/<%=item.id %>">
+      <img src="<%=item.img %>" class="main-img" />
+    </a>
+    <div>
+      <form action="/games/<%=item.id%>?_method=delete" method="post">
+        <input type="submit" value="&#88;" class="delete" />
+      </form>
+    </div>
+  </div>
+  <% }) %>
+</div>
